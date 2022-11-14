@@ -1,0 +1,87 @@
+
+
+ */
+
+
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     max-width: 1440px;
+     margin: auto;
+     background: linear-gradient(to right, rgb(59, 202, 195), rgb(58, 7, 55) );
+
+ }
+
+ header {
+     margin: 50px;
+     text-align: center;
+     font-weight: 900;
+ }
+
+ .slider-wrapper {
+     margin: 4rem;
+     position: relative;
+     overflow: hidden;
+     text-align: center;
+     
+ }
+
+ .slides-container {
+     height: 60vh;
+     width: 50%;
+     display: flex;
+     overflow: hidden;
+     scroll-behavior: smooth;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     border-radius: 10px;
+    /* text-align: center; */
+    margin: auto;
+ }
+
+ .slide-arrow {
+     background-color: rgba(102, 27, 98, 0.199);
+     border: none;
+     font-size: 3rem;
+     padding: 0px 10px;
+     cursor: pointer;
+     margin: 20px 20px;
+ }
+
+
+
+ .slide {
+     width: 100%;
+     height: 100%;
+     flex: 1 0 100%;
+ }
+
+ .slide:nth-child(1) {
+     background-image: url(./Images/tim-swaan-eOpewngf68w-unsplash.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+    
+     
+ }
+
+ .slide:nth-child(2) {
+    background-image: url(./Images/quino-al-mBQIfKlvowM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .slide:nth-child(3) {
+    background-image: url(./Images/ivana-cajina-WPVtT0MEM00-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .slide:nth-child(4) {
+    background-image: url(./Images/david-marcu-78A265wPiO4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
